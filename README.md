@@ -17,3 +17,5 @@ Elmentett fegyencek `db.csv`-ből kiolvasva, hozáadott fegyencek mentése nincs
         "name": "Teszt Negy;",
         "gender": "FEMALE"
 }`
+
+Tölli Ticián (HOH483)
