@@ -11,7 +11,7 @@ Elmentett fegyencek `db.csv`-ből kiolvasva, hozáadott fegyencek mentése nincs
 
 > GET: Fegyencek listájának lekérése (JSON Formátumban)
 
-> POST: Fegyence hozzáadása (JSON Formátumban) Példa:
+> POST: Fegyenc hozzáadása (JSON Formátumban) Példa:
 `{
         "id": 4,
         "name": "Teszt Negy;",
