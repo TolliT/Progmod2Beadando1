@@ -16,12 +16,12 @@ public class InmateServiceController {
     InmateService inmateService;
 
     @RequestMapping(value = "/inmates")
-    public ResponseEntity<Object> getProduct() {
+    public ResponseEntity<Object> getInmates() {
         return new ResponseEntity<>(inmateService.listInmates(), HttpStatus.OK);
     }
 
     @RequestMapping(value = "/inmates", method = RequestMethod.POST)
-    public ResponseEntity<Object> createProduct(@RequestBody Inmate inmate) {
+    public ResponseEntity<Object> addInnmate(@RequestBody Inmate inmate) {
         inmateService.addInmate(inmate);
         return new ResponseEntity<>("Inmate added successfully", HttpStatus.CREATED);
     }
